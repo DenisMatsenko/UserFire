@@ -15,7 +15,7 @@ namespace UserFire
 
         static DataBase()
         {
-            Client = new MongoClient("mongodb+srv://FirstDBUser:Dm2016dM@cluster0.oi18chy.mongodb.net/?retryWrites=true&w=majority");
+            Client = new MongoClient("mongodb+srv://FirstDBUser:@cluster0.oi18chy.mongodb.net/?retryWrites=true&w=majority");
             Datebase = Client.GetDatabase(DatabaseName);
             Collection = Datebase.GetCollection<Student>(CollectionName);
         }
