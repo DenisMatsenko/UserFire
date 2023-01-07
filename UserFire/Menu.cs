@@ -4,7 +4,7 @@ namespace UserFire
 {
     class Menu
     {
-        // prop for program cs from mew branch
+        // prop for program cs from mew branch need commit 
         public static bool IsProgramClosed { get; private set; } = false;
 
         private static string[] OptionsArr { get; set; } =
