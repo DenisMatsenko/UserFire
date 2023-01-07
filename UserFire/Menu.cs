@@ -136,7 +136,5 @@ namespace UserFire
             Console.Write("Enter core class name: ");
             Student.WriteStudentsToTable(DataBase.FindStudentByCoreClass(Console.ReadLine()));
         }
-
-
     }
 }
