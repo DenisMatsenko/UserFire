@@ -4,6 +4,7 @@ namespace UserFire
 {
     class Menu
     {
+        //com from another repository
         public static bool IsProgramClosed { get; private set; } = false;
 
         private static string[] OptionsArr { get; set; } =
